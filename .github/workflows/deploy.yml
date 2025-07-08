@@ -16,7 +16,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.1'  # Puedes ajustarla a la versión que uses
+          flutter-version: '3.32.4'
 
       - name: Install dependencies
         run: flutter pub get
@@ -31,4 +31,4 @@ jobs:
           publish_dir: ./build/web
           publish_branch: gh-pages
           user_name: davidortegadiaz
-          user_email: davidortegadiaz@users.noreply.github.com
+          user_email: jdortegad@gmail.com
